@@ -37,8 +37,8 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "694992707-dual-ai-cha-62"
-          entrypoint: "https://deno.land/std@0.217.0/http/file_server.ts"
+          project: "694992707-dual-ai-cha-21"
+          entrypoint: "dual-ai-chat/index.html"
           root: "dist"
           
           
